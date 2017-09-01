@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 960px;
+	background: #000000 url("../img/barbershop-index-grid.jpg") no-repeat center top;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.inner-page {
+	color: #000000;
+
+	background: #f8f3f0 url("../img/pattern-white.jpg") repeat;
+}
+
+.clearfix::after {
+	content: "";
+
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-header {
+	margin-bottom: 60px;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.inner-page .main-header {
+	margin-bottom: 55px;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+	min-height: 70px;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.main-navigation li {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: top;
+}
+
+.main-navigation a {
+	display: block;
+	padding: 25px 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main-navigation a:hover {
+	background-color: #242424;
+}
+
+.main-navigation .active {
+	position: relative;
+	background: none;
+}
+
+.main-navigation .active a:hover {
+	background: none;
+}
+
+.main-navigation .active::after {
+	content: "";
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	left: 20px;
+	height: 5px;
+	background-color: #ffffff; 
+}
+
+.main-navigation .active span {
+	display: block;
+	padding: 25px 20px;
+}
+
+.user-block {
+	float: right;
+	max-width: 140px;
+}
+
+.login {
+	position: relative;
+	display: inline-block;
+	padding: 25px 20px;
+	padding-left: 50px;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: top;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.login:hover {
+	background-color: #242424;
+}
+
+.login::before {
+	content: "";
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	width: 18px;
+	height: 18px;
+	background: transparent url("../img/sprite.png") -10px -12px no-repeat;
+	opacity: 0.3;
+}
+
+.login:hover::before {
+	opacity: 1;
+}
