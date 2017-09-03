@@ -326,3 +326,98 @@ body {
 	clear: both;
 	width: 100%;
 }
+
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	color: #ffffff;
+	background: #252525 url("../img/pattern-black.jpg")
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+
+.footer-contacts a {
+	color: #ffffff;
+}
+
+.footer-contacts a:hover {
+	text-decoration: none;
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+	text-align: center;
+}
+
+.footer-copyright {
+	float: right;
+	max-width: 180px;
+}
+
+.footer-social p {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.social-btn {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	margin: 0 2px;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+	background: #000000 url("../img/sprite.png") no-repeat center;
+	transition:
+		background-position 0.5s,
+		background-color 0.5s;
+}
+
+.social-btn:hover {
+	background-color: #ffffff;
+}
+
+.social-btn-vk {
+	background-position: -1px -45px;
+}
+
+.social-btn-fb {
+	background-position: -44px -50px;
+}
+
+.social-btn-inst {
+	background-position: -98px -49px;
+}
+
+.social-btn-vk:hover {
+	background-position: -1px -95px;
+}
+
+.social-btn-fb:hover {
+	background-position: -44px -100px;
+}
+
+.social-btn-inst:hover {
+	background-position: -98px -100px;
+}
+
+.footer-copyright p {
+	margin: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.footer-copyright .btn {
+	margin-right: 0;
+}
+
+.footer-copyright .btn:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
