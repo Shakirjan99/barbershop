@@ -719,6 +719,33 @@ body {
 	background-color: #663d15;
 }
 
+.paginator a,
+.paginator span {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	margin-right: 4px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 40px;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.paginator a {
+	text-decoration: none;
+}
+
+.paginator a:hover {
+	background-color: #663d15;
+}
+
+.paginator .active {
+	color: #000000;
+	background-color: #ffffff;
+}
+
 .main-footer {
 	margin-top: 65px;
 	padding-top: 60px;
