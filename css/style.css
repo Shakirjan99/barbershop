@@ -591,11 +591,11 @@ body {
 	margin-bottom: 52px;
 }
 
-.categories input[type="radio"] {
+.group input[type="radio"] {
 	display: none;
 }
 
-.categories {
+.group {
 	display: inline-block;
 	position: relative;
 	padding-left: 44px;
@@ -606,11 +606,11 @@ body {
 	vertical-align: top;
 }
 
-.categories:hover {
+.group:hover {
 	color: #663d15;
 }
 
-.categories input[type="radio"] + .radio-indicator {
+.group input[type="radio"] + .radio-indicator {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -620,8 +620,8 @@ body {
 	border: 2px solid #000000;
 }
 
-.categories input[type="radio"]:checked + .radio-indicator::before,
-.categories input[type="radio"]:checked + .radio-indicator::after {
+.group input[type="radio"]:checked + .radio-indicator::before,
+.group input[type="radio"]:checked + .radio-indicator::after {
 	content: "";
 	position: absolute;
 	top: 6px;
@@ -630,6 +630,93 @@ body {
 	height: 8px;
 	border-radius: 50%;
 	background-color: #000000;
+}
+
+.fields-form .btn {
+	margin-right: 0;
+}
+
+.shop-content-right {
+	width: 700px;
+	float: right;
+}
+
+.shop-content-indent {
+	margin-bottom: 20px;
+}
+
+.shop-content-indent:nth-child(2) {
+	margin-bottom: 45px;
+}
+
+.goods {
+	float: left;
+	width: 220px;
+	min-height: 286px;
+	margin-right: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	background-color: #ffffff;
+}
+
+.goods:nth-child(3) {
+	margin-right: 0;
+}
+
+.goods:hover {
+	cursor: pointer;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);	
+}
+
+.goods-picture {
+	height: 165px;
+	margin: 0;
+}
+
+.goods-picture img {
+	width: 220px;
+	height: 165px;
+}
+
+.goods-title {
+	margin: 12px 16px 10px;
+}
+
+.goods-title a {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.goods-block .price,
+.goods-block .buy {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.goods-block .price {
+	min-width: 109px;
+	margin-left: 16px;
+	padding: 11px 0;
+	text-align: center;
+	color: #000000;
+	background-color: #e5e5e5;
+}
+
+.goods-block .buy {
+	min-width: 78px;
+	margin-left: -2px;
+	padding: 11px 0;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.goods-block .buy:hover {
+	background-color: #663d15;
 }
 
 .main-footer {
